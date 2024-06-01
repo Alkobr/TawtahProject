@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.loginContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 38px;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 100vh;
+    background-color: #f6f6f6;
+}
+
+.loginItem {
+    width: 300px;
+}
+
+.loginImage {
+    margin-top: -160px;
+    margin-bottom: 70px;
+}
+.createAccountButton {
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: 0.5vw;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.createAccountButton:hover {
+}
+.loginForm {
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #d8d8da;
+}
+
+.loginForm h2 {
+    margin-bottom: 20px;
+}
+
+.loginInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginInputs input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #d8d8da;
+    border-radius: 4px;
+}
+
+.loginInputs button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.loginInputs button:hover {
+    background-color: #4caf50;
+}
+
+.footer {
+    color: rgb(206, 212, 217);
+    text-align: center;
+    font-size: 12px;
+    padding: 1rem;
+    margin-top: -45px;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: rgb(206, 212, 217);
+}
